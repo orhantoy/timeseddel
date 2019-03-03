@@ -1,0 +1,119 @@
+.TimesheetApp {
+  margin: 40px auto;
+  width: 560px;
+}
+
+ul.EntryList {
+  border-top: 1px dashed #aaa;
+  list-style: none;
+  padding: 24px 0 12px;
+  margin: 12px 0;
+}
+
+.MonthName {
+  background: #eee;
+  text-align: center;
+  line-height: 24px;
+  padding: 12px 0;
+}
+
+.WeekHourSummary {
+  margin-top: 12px;
+}
+
+.WeekHourDay {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.WeekHourDay-NameContainer {
+}
+
+.WeekHourDay-Name {
+  display: inline-block;
+  background: #ddd;
+  border-radius: 24px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 48px;
+  height: 48px;
+  width: 48px;
+}
+
+.WeekHourDay-Hours {
+  color: #aaa;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+.WeekHourDay_Selected .WeekHourDay-Name {
+  background: #ade;
+  font-weight: bold;
+}
+
+.DateSelect {
+  background: #e8e8e8;
+  text-align: center;
+  line-height: 24px;
+  padding: 12px 0;
+  margin-bottom: 12px;
+}
+
+.DateSelect .react-datepicker-wrapper {
+  margin-left: 70px;
+  vertical-align: middle;
+}
+
+.DateSelect .react-datepicker-wrapper input {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.DateSelect-Button {
+  background: #888;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 18px;
+  margin: 0 0 0 10px;
+  padding: 0;
+  vertical-align: middle;
+  width: 60px;
+}
+
+.DateSelect.DateSelect_Draft .DateSelect-Button {
+  background: #000;
+}
+
+.NewEntry {
+  background: #eda;
+  color: #888;
+  padding: 12px 12px 2px;
+}
+
+.NewEntry input {
+  margin-bottom: 12px;
+}
+
+.NewEntry_NameInput {
+  font-size: 18px;
+  width: 460px;
+  padding: 4px;
+}
+
+.NewEntry .react-datepicker__input-container input {
+  font-size: 14px;
+  width: 180px;
+}
+
+.NewEntry input[type=submit] {
+  font-size: 18px;
+}
